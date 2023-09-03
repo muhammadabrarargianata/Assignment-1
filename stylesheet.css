@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ddd1d1;
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: right;
+    padding: 16px;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-weight: 600;
+    padding: 5px 0;
+    transition: all;
+    transition-duration: 200ms;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+nav ul li a:hover {
+    border-bottom: 1px solid black;
+    color: lightblue;
+}
+
+.container {
+    padding: 0 50px;
+}
+
+.card {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px;
+    height: 100%;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.h2 {
+    font-size: medium;
+    font-style: bold;
+}
+
+.button-primary {
+    padding: 10px 20px;
+    width: fit-content;
+    height: auto;
+    color: white;
+    background-color: #5243d8;
+    border-radius: 5px;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.button-secondary {
+    margin: 0 10px;
+    padding: 10px 20px;
+    width: fit-content;
+    height: auto;
+    color: #24e67b;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    border: 1.5px solid #24e67b;
+}
+
+.job {
+    margin: 10px 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex p {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.img {
+    object-fit: cover;
+    object-position: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: transform 0.2s;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.img:hover {
+    transform: scale(1.2);
+    overflow: hidden;
+}
+
+.profile-left {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+td p {
+    margin: 3px 20px;
+}
+.card-form {
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px 20px;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+}
+
+form div label {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+
+form div input {
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 2px 4px;
+}
+
+.button-input {
+    width: 100%;
+    margin-top: 30px;
+    background-color: #06b454;
+    height: 30px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}

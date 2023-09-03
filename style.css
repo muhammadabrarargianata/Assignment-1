@@ -1,0 +1,11 @@
+footer{
+	background-color: #e8ebeee8;
+}
+
+footer .left{
+	text-align: left;
+}
+
+footer .right{
+	text-align: right;
+}
